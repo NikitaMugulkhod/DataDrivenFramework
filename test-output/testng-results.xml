@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-01T16:20:31 IST" name="Default suite" finished-at="2023-09-01T16:20:47 IST" duration-ms="16427">
+    <groups>
+    </groups>
+    <test started-at="2023-09-01T16:20:31 IST" name="Default test" finished-at="2023-09-01T16:20:47 IST" duration-ms="16427">
+      <class name="com.edusoln.runner.TestRunner">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.edusoln.runner.TestRunner@6913c1fb]" started-at="2023-09-01T16:20:31 IST" name="beforeTest" finished-at="2023-09-01T16:20:31 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.edusoln.runner.TestRunner@6913c1fb]" started-at="2023-09-01T16:20:33 IST" name="browserSetup" finished-at="2023-09-01T16:20:40 IST" duration-ms="7391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="login(java.util.Map)[pri:0, instance:com.edusoln.runner.TestRunner@6913c1fb]" started-at="2023-09-01T16:20:40 IST" name="login" data-provider="dp" finished-at="2023-09-01T16:20:42 IST" duration-ms="1910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase_Name=Verify Login works fine, Comment=Sick Leave, User id=Admin, password=admin123, Execute=Yes, AssignLeave=No, Emp_name=Or, FromDate=2022-07-20, ToDate=2022-07-21, Leave_type=US - Vacation}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.edusoln.runner.TestRunner@6913c1fb]" started-at="2023-09-01T16:20:42 IST" name="teardown" finished-at="2023-09-01T16:20:42 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.edusoln.runner.TestRunner@6913c1fb]" started-at="2023-09-01T16:20:42 IST" name="browserSetup" finished-at="2023-09-01T16:20:46 IST" duration-ms="3478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="login(java.util.Map)[pri:0, instance:com.edusoln.runner.TestRunner@6913c1fb]" started-at="2023-09-01T16:20:46 IST" name="login" data-provider="dp" finished-at="2023-09-01T16:20:47 IST" duration-ms="737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase_Name=Verify Leave Assignment Works fine, Comment=Sick Leave, User id=Admin, password=admin123, Execute=No, AssignLeave=Yes, Emp_name=Or, FromDate=2022-07-20, ToDate=2022-07-21, Leave_type=US - Vacation}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.edusoln.runner.TestRunner@6913c1fb]" started-at="2023-09-01T16:20:47 IST" name="teardown" finished-at="2023-09-01T16:20:47 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.edusoln.runner.TestRunner@6913c1fb]" started-at="2023-09-01T16:20:47 IST" name="afterTest" finished-at="2023-09-01T16:20:47 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.edusoln.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
